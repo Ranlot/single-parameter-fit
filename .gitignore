@@ -5,3 +5,4 @@ __pycache__/
 resources/cifar10/cifar-10-batches-py/
 resources/cifar10/cifar-10-python.tar
 resources/cifar10/results.p
+overleaf.paper/
