@@ -1,6 +1,8 @@
 ### Real numbers, data science and chaos: How to fit any dataset with a single parameter
 ##### *All details and more examples can be found in the accompanying [arXiv:1904.12320](https://arxiv.org/abs/1904.12320) paper (also hosted [here](1904.12320.pdf)).*
 
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Ranlot/single-parameter-fit/master)
+
 We show how any dataset of any modality (time-series, images, sound...) can be approximated by a well-behaved 
 (continuous, differentiable...) scalar function with a single real-valued parameter:
 
