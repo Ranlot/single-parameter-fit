@@ -1,0 +1,15 @@
+#!/bin/bash
+set -e
+# Any subsequent commands which fail will cause the shell script to exit immediately
+
+# Note that this is executed in the root directory of the repo
+
+cd resources/cifar10
+wget https://www.cs.toronto.edu/~kriz/cifar-10-python.tar.gz -nv
+
+echo "c58f30108f718f92721af3b95e74349a  cifar-10-python.tar.gz" > checksum.txt
+md5sum -c checksum.txt
+rm checksum.txt
+
+tar -xzf cifar-10-python.tar.gz
+rm cifar-10-python.tar.gz
