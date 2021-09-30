@@ -24,7 +24,7 @@ mistune==0.8.4
 mpmath==1.1.0
 nbconvert==5.5.0
 nbformat==4.4.0
-notebook==6.1.5
+notebook==6.4.1
 numpy==1.16.3
 pandas==0.24.2
 pandocfilters==1.4.2
