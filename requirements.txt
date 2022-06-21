@@ -25,7 +25,7 @@ mpmath==1.1.0
 nbconvert==5.5.0
 nbformat==4.4.0
 notebook==6.4.1
-numpy==1.16.3
+numpy==1.22.0
 pandas==0.24.2
 pandocfilters==1.4.2
 parso==0.4.0
